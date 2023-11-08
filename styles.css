@@ -16,8 +16,8 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    padding: 30px;
+    gap: 80px;
+    padding: 80px;
     border: 2px solid white;
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -49,6 +49,7 @@ body {
     color: rgba( 255, 255, 255, 0.70 );
     font-weight: 300;
     margin-bottom: 10px;
+    margin-left: 3px;
 }
 
 .input input {
@@ -75,4 +76,20 @@ body {
 .generate-btn:hover {
     cursor: pointer;
     color: #284d9c;
+    box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.20 );
+}
+
+.qr-container {
+    background-color: white;
+    height: 350px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
